@@ -33,6 +33,17 @@
   }
 
   {
+    "match": "((?:\\w|[0-9])+)(:)((?:\\w|[0-9])+)"
+    "captures":
+      "1":
+        "name": "entity.name.type.mcfunction"
+      "2":
+        "name": "keyword.operator.mcfunction"
+      "3":
+        "name": "entity.name.tag.mcfunction"
+    "name": "meta.function.mcfunction"
+  }
+  {
     "match": "(advancement|ban-ip|banlist|ban|blockdata|clear|clone|debug|defaultgamemode|deop|difficulty|effect|enchant|entitydata|execute|fill|function|gamemode|gamerule|give|help|kick|kill|list|locate|me|op|pardon|particle|playsound|publish|recipe|reload|replaceitem|save-all|save-off|save-on|say|scoreboard|seed|setblock|setidletimeout|setworldspawn|spawnpoint|spreadplayers|stats|stop|stopsound|summon|teleport|tellraw|tell|testforblocks|testforblock|testfor|time|title|toggledownfall|tp|trigger|weather|whitelist|worldborder|xp)"
     "name": "entity.name.function.mcfunction"
   }
