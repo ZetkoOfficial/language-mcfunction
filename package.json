@@ -1,0 +1,17 @@
+{
+  "name": "language-mcfunction",
+  "version": "0.0.0",
+  "description": "Minecraft Function language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jammy4312/language-mcfunction.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jammy4312/language-mcfunction/issues"
+  },
+  "license": "MIT"
+}
