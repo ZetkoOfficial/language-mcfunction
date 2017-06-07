@@ -7,12 +7,16 @@
     "name": "constant.numeric.mcfunction"
   }
   {
-    "match": "(@[apres])(?:\\[((?:[\\w|_]+=(?:!)?(?:\\w|[0-9])*(?:,|, )?)+)\\])*"
+    "match": "(@[apres])(?:(\\[)((?:[\\w|_]+=(?:!)?(?:\\w|[0-9])*(?:,|, )?)+)(\\]))*"
     "captures":
       "1":
         "name": "entity.name.tag.mcfunction"
       "2":
+        "name": "punctuation.definition.string.begin.mcfunction"
+      "3":
         "name": "keyword.operator.mcfunction"
+      "4":
+        "name": "punctuation.definition.string.end.mcfunction"
     "name": "meta.function.mcfunction"
   }
   {
