@@ -1,0 +1,281 @@
+"scopeName": "source.mcfunction"
+"name": "MCFunction"
+"fileTypes": ["mcfunction"]
+"patterns": [
+  {
+    "match": "(([-~]?([0-9]+\\.?[0-9]*)|(\\.[0-9]+))|~)"
+    "name": "constant.numeric.mcfunction"
+  }
+  {
+    "match": "(@[apres])(?:\\[((?:[\\w|_]+=(?:!)?(?:\\w|[0-9])*(?:,|, )?)+)\\])*"
+    "captures":
+      "1":
+        "name": "entity.name.tag.mcfunction"
+      "2":
+        "name": "keyword.operator.mcfunction"
+    "name": "meta.function.mcfunction"
+  }
+  {
+    "match": "(?:^|\n|\r\n)\/"
+    "name": "invalid.illegal.mcfunction"
+  }
+  {
+    "match": "(advancement)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(ban-ip)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(banlist)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(ban)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(blockdata)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(clear)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(clone)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(debug)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(defaultgamemode)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(deop)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(difficulty)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(effect)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(enchant)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(entitydata)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(execute)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(fill)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(function)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(gamemode)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(gamerule)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(give)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(help)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(kick)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(kill)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(list)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(locate)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(me)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(op)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(pardon)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(particle)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(playsound)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(publish)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(recipe)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(reload)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(replaceitem)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(save-all)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(save-off)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(save-on)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(say)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(scoreboard)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(seed)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(setblock)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(setidletimeout)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(setworldspawn)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(spawnpoint)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(spreadplayers)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(stats)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(stop)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(stopsound)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(summon)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(teleport)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(tellraw)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(tell)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(testforblocks)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(testforblock)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(testfor)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(time)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(title)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(toggledownfall)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(tp)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(trigger)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(weather)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(whitelist)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(worldborder)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "match": "(xp)"
+    "name": "entity.name.function.mcfunction"
+  }
+  {
+    "include": "source.json"
+  }
+]
