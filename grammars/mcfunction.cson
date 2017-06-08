@@ -48,6 +48,79 @@
     "name": "entity.name.function.mcfunction"
   }
   {
+    "match": "\\b(grant|revoke|only|until|from|through|everything|test)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(filtered|masked|replace|force|move|normal|start|stop)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(survival|creative|adventure|spectator|s|c|a|sp)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(peaceful|easy|normal|hard|p|e|n|h)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(true|false)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(detect|destroy|hollow|keep|outline|if|unless)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(commandBlockOutput|disableElytraMovementCheck|doDaylightCycle|doEntityDrops|doFireTick|doLimitedCrafting|doMobLoot|doMobSpawning|doTileDrops|doWeatherCycle|drowningdamage|falldamage|firedamage|gameLoopFunction|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|pvp|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(EndCity|Fortress|Mansion|Mineshaft|Monument|Stronghold|Temple|Village)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(give|take|block|entity|slot.container.[0-9]+|slot.armor.chest|slot.armor.feet|slot.armor.head|slot.armor.legs|slot.weapon.mainhand|slot.weapon.offhand|slot.enderchest.[0-9]+|slot.hotbar.[0-8]|slot.inventory.[0-9]+|slot.horse.saddle|slot.horse.armor|slot.horse.chest.[0-9]+|slot.villager.[0-7]|flush)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(objectives|add|remove|setdisplay)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(players|set|reset|enable|test|operation|tag)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "(+=|-=|*=|/=|%=|=|<|>|><)"
+    "name": "keyword.operator.mcfunction"
+  }
+  {
+    "match": "\\b(teams|empty|join|leave|option|color|friendlyfire|seeFriendlyInvisibles|nametagVisibility|deathMessageVisibility|collisionRule)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(black|dark_blue|dark_green|dark_aqua|dark_red|dark_purple|gold|gray|dark_gray|blue|green|aqua|red|light_purple|yellow|white|never|hideForOtherTeams|hideForOwnTeam|always|pushOwnTeam|pushOtherTeams)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(AffectedBlocks|AffectedEntities|AffectedItems|QueryResult|SuccessCount)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(master|music|record|weather|block|hostile|neutral|player|ambient|voice)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(query|daytime|gametime|day|night)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+  {
+    "match": "\\b(subtitle|actionbar|times|rain|thunder|on|off|center|damage|amount|buffer|warning)\\b"
+    "name": "variable.parameter.mcfunction"
+  }
+
+  {
     "include": "source.json"
   }
 ]
