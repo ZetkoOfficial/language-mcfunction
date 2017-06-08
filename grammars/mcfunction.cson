@@ -116,7 +116,7 @@
     "name": "variable.parameter.mcfunction"
   }
   {
-    "match": "(advancement|ban-ip|banlist|ban|blockdata|clear|clone|debug|defaultgamemode|deop|difficulty|effect|enchant|entitydata|execute|fill|function|gamemode|gamerule|give|help|kick|kill|list|locate|me|op|pardon|particle|playsound|publish|recipe|reload|replaceitem|save-all|save-off|save-on|say|scoreboard|seed|setblock|setidletimeout|setworldspawn|spawnpoint|spreadplayers|stats|stop|stopsound|summon|teleport|tellraw|tell|testforblocks|testforblock|testfor|time|title|toggledownfall|tp|trigger|weather|whitelist|worldborder|xp)"
+    "match": "\\b(advancement|ban-ip|banlist|ban|blockdata|clear|clone|debug|defaultgamemode|deop|difficulty|effect|enchant|entitydata|execute|fill|function|gamemode|gamerule|give|help|kick|kill|list|locate|me|op|pardon|particle|playsound|publish|recipe|reload|replaceitem|save-all|save-off|save-on|say|scoreboard|seed|setblock|setidletimeout|setworldspawn|spawnpoint|spreadplayers|stats|stop|stopsound|summon|teleport|tellraw|tell|testforblocks|testforblock|testfor|time|title|toggledownfall|tp|trigger|weather|whitelist|worldborder|xp)\\b"
     "name": "entity.name.function.mcfunction"
   }
 
