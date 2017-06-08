@@ -92,7 +92,7 @@
     "name": "variable.parameter.mcfunction"
   }
   {
-    "match": "(+=|-=|*=|/=|%=|=|<|>|><)"
+    "match": "(\\+=|-=|\\*=|\\/=|%=|=|<|>|><)"
     "name": "keyword.operator.mcfunction"
   }
   {
