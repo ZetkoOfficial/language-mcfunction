@@ -1,0 +1,4 @@
+'.source.mcfunction':
+  'editor':
+    'commentStart': '# '
+    'preferredLineLength': '32500'
