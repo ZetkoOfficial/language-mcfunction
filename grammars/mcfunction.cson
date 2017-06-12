@@ -7,7 +7,7 @@
     "name": "constant.numeric.mcfunction"
   }
   {
-    "match": "(@[apres])(?:(\\[)((?:[\\w|_]+=(?:!)?(?:\\w|[0-9])*(?:,|, )?)+)(\\]))*"
+    "match": "(@[apres])(?:(\\[)((?:[\\w|_]+=(?:!)?(?:(?:\\w)*|(?:-)[0-9]*)(?:,|, )?)+)(\\]))*"
     "captures":
       "1":
         "name": "entity.name.tag.mcfunction"
