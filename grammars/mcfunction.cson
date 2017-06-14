@@ -76,7 +76,7 @@
     "name": "variable.parameter.mcfunction"
   }
   {
-    "match": "\\b(give|take|block|entity|slot.container.[0-9]+|slot.armor.chest|slot.armor.feet|slot.armor.head|slot.armor.legs|slot.weapon.mainhand|slot.weapon.offhand|slot.enderchest.[0-9]+|slot.hotbar.[0-8]|slot.inventory.[0-9]+|slot.horse.saddle|slot.horse.armor|slot.horse.chest.[0-9]+|slot.villager.[0-7]|flush)\\b"
+    "match": "\\b(take|block|entity|slot.container.[0-9]+|slot.armor.chest|slot.armor.feet|slot.armor.head|slot.armor.legs|slot.weapon.mainhand|slot.weapon.offhand|slot.enderchest.[0-9]+|slot.hotbar.[0-8]|slot.inventory.[0-9]+|slot.horse.saddle|slot.horse.armor|slot.horse.chest.[0-9]+|slot.villager.[0-7]|flush)\\b"
     "name": "variable.parameter.mcfunction"
   }
   {
@@ -118,9 +118,5 @@
   {
     "match": "\\b(advancement|ban-ip|banlist|ban|blockdata|clear|clone|debug|defaultgamemode|deop|difficulty|effect|enchant|entitydata|execute|fill|function|gamemode|gamerule|give|help|kick|kill|list|locate|me|op|pardon|particle|playsound|publish|recipe|reload|replaceitem|save-all|save-off|save-on|say|scoreboard|seed|setblock|setidletimeout|setworldspawn|spawnpoint|spreadplayers|stats|stop|stopsound|summon|teleport|tellraw|tell|testforblocks|testforblock|testfor|time|title|toggledownfall|tp|trigger|weather|whitelist|worldborder|xp)\\b"
     "name": "entity.name.function.mcfunction"
-  }
-
-  {
-    "include": "source.json"
   }
 ]
