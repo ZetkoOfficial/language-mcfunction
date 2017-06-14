@@ -76,7 +76,7 @@
     "name": "variable.parameter.mcfunction"
   }
   {
-    "match": "\\b(take|block|entity|slot.container.[0-9]+|slot.armor.chest|slot.armor.feet|slot.armor.head|slot.armor.legs|slot.weapon.mainhand|slot.weapon.offhand|slot.enderchest.[0-9]+|slot.hotbar.[0-8]|slot.inventory.[0-9]+|slot.horse.saddle|slot.horse.armor|slot.horse.chest.[0-9]+|slot.villager.[0-7]|flush)\\b"
+    "match": "\\b(give|take|block|entity|slot.container.[0-9]+|slot.armor.chest|slot.armor.feet|slot.armor.head|slot.armor.legs|slot.weapon.mainhand|slot.weapon.offhand|slot.enderchest.[0-9]+|slot.hotbar.[0-8]|slot.inventory.[0-9]+|slot.horse.saddle|slot.horse.armor|slot.horse.chest.[0-9]+|slot.villager.[0-7]|flush)\\b"
     "name": "variable.parameter.mcfunction"
   }
   {
@@ -120,4 +120,7 @@
     "name": "entity.name.function.mcfunction"
   }
 
+  {
+    "include": "source.json"
+  }
 ]
