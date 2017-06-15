@@ -29,7 +29,7 @@
       "1":
         "name": "punctuation.definition.comment.mcfunction"
     "end": "\\n"
-    "name": "comment.line.number-sign.mcfunction"
+    "name": "comment.line.number.sign.mcfunction"
   }
 
   {
