@@ -1,6 +1,6 @@
 {
   "name": "betterlanguage-mcfunction",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "description": "Minecraft Function language support in Atom Revamped.",
   "engines": {
     "atom": "*"
